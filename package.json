@@ -1,0 +1,28 @@
+{
+  "name": "bookscraper",
+  "version": "1.0.0",
+  "description": "Scrape book information based on title",
+  "main": "App.js",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.17.1",
+    "node": "^12.13.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node App.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThomasAR/bookscraper.git"
+  },
+  "author": "Thomas Arsenault",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThomasAR/bookscraper/issues"
+  },
+  "homepage": "https://github.com/ThomasAR/bookscraper#readme"
+}
